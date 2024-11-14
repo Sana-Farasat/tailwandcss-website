@@ -2,32 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+   /* Custom Styles for Slick Arrows */
+   /* To bring arrows on top of the images */
+   /* optional - to add background to arrows */
+/* .slick-prev, .slick-next {
+  z-index: 1; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 50%;
+  padding: 10px;
+} */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+/* Move to the left of the image */
+/* .slick-prev {
+  left: 10px; 
+} */
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+
+/* Move to the right of the image */
+/* .slick-next {
+  right: 10px; 
+} */
