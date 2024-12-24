@@ -13,7 +13,7 @@ import { AlignJustify } from "lucide-react";
 
 export default function Header() {
   return (
-    <header className="flex justify-between m-3">
+    <header className="max-w-[1500px] mx-auto flex justify-between m-3">
       {/* Logo */}
       <div className="rounded-full overflow-hidden w-20 h-20 border-4 border-blue-800 shadow-lg">
         <Image src="/logo.jpg" alt="Logo" height={80} width={80} />

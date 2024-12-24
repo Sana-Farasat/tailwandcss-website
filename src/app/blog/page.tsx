@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Blog() {
   return (
-    <main>
+    <main className="max-w-[1500px] mx-auto">
       <div className="h-auto w-full">
         <Image
           src="/blog.jpg"
@@ -16,7 +16,7 @@ export default function Blog() {
       <div className="flex flex-col md:flex-row my-3 justify-evenly">
         {/* Div 1 */}
         <div className=" w-11/12 m-4 border border-x-gray-500 border-y-gray-500 md:w-96">
-          <div className="max-w-sm rounded overflow-hidden shadow-lg">
+          <div className="max-w-none rounded overflow-hidden shadow-lg">
             {/* Blog Image */}
             <Image
               src="/blog4.jpg"
@@ -27,7 +27,7 @@ export default function Blog() {
             />
           </div>
           {/* Blog Heading */}
-          <div className=" px-3 py-2 w-full md:px-6 md:py-4  ">
+          <div className=" px-3 py-2 w-full md:px-4 md:py-1  ">
             <h2 className="text-pink-500 font-bold text-2xl">
               Achieving Optimal Health: How to Make a Habit That Sticks For Life
             </h2>
@@ -44,7 +44,7 @@ export default function Blog() {
         {/* Div 2 */}
 
         <div className=" w-11/12 m-4 border border-x-gray-500 border-y-gray-500 md:w-96">
-          <div className="max-w-sm rounded overflow-hidden shadow-lg">
+          <div className="max-w-none rounded overflow-hidden shadow-lg">
             {/* Blog Image */}
             <Image
               src="/blog3.jpg"
@@ -55,7 +55,7 @@ export default function Blog() {
             />
           </div>
           {/* Blog Heading */}
-          <div className="px-3 py-2 w-full md:px-6 md:py-4 ">
+          <div className="px-3 py-2 w-full md:px-4 md:py-1 ">
             <h2 className="text-pink-500 font-bold text-2xl">
               The Role of Nutrition in Chronic Disease
             </h2>
@@ -71,7 +71,7 @@ export default function Blog() {
         </div>
         {/* Div 3 */}
         <div className=" w-11/12 m-4 border border-x-gray-500 border-y-gray-500 md:w-96">
-          <div className="max-w-sm rounded overflow-hidden shadow-lg">
+          <div className="max-w-none rounded overflow-hidden shadow-lg">
             {/* Blog Image */}
             <Image
               src="/blog5.jpg"
@@ -82,7 +82,7 @@ export default function Blog() {
             />
           </div>
           {/* Blog Heading */}
-          <div className="px-3 py-2 w-full md:px-6 md:py-4 ">
+          <div className="px-3 py-2 w-full md:px-4 md:py-1">
             <h2 className="text-pink-500 font-bold text-2xl">
               What is Mindful Eating? Your Complete Guide to Enjoying Your Food
               More
@@ -102,7 +102,7 @@ export default function Blog() {
       <div className="flex flex-col md:flex-row my-3 justify-evenly">
         {/* Div 1 */}
         <div className=" w-11/12 m-4 border border-x-gray-500 border-y-gray-500 md:w-96">
-          <div className="max-w-sm rounded overflow-hidden shadow-lg">
+          <div className="max-w-none rounded overflow-hidden shadow-lg">
             {/* Blog Image */}
             <Image
               src="/blog6.jpg"
@@ -113,7 +113,7 @@ export default function Blog() {
             />
           </div>
           {/* Blog Heading */}
-          <div className="px-3 py-2 w-full md:px-6 md:py-4  ">
+          <div className="px-3 py-2 w-full md:px-4 md:py-1  ">
             <h2 className="text-pink-500 font-bold text-2xl">
               Top 5 Worst Food Ingredients for Your Immune System
             </h2>
@@ -130,7 +130,7 @@ export default function Blog() {
         {/* Div 2 */}
 
         <div className=" w-11/12 m-4 border border-x-gray-500 border-y-gray-500 md:w-96">
-          <div className="max-w-sm rounded overflow-hidden shadow-lg">
+          <div className="max-w-none rounded overflow-hidden shadow-lg">
             {/* Blog Image */}
             <Image
               src="/blog1.jpg"
@@ -141,7 +141,7 @@ export default function Blog() {
             />
           </div>
           {/* Blog Heading */}
-          <div className="px-3 py-2 w-full md:px-6 md:py-4 ">
+          <div className="px-3 py-2 w-full md:px-4 md:py-1 ">
             <h2 className="text-pink-500 font-bold text-2xl">
               Achieving Optimal Health: How to Make a Habit That Sticks for Life
             </h2>
@@ -157,7 +157,7 @@ export default function Blog() {
         </div>
         {/* Div 3 */}
         <div className=" w-11/12 m-4 border border-x-gray-500 border-y-gray-500 md:w-96">
-          <div className="max-w-sm rounded overflow-hidden shadow-lg">
+          <div className="max-w-none rounded overflow-hidden shadow-lg">
             {/* Blog Image */}
             <Image
               src="/blog2.jpg"
@@ -168,7 +168,7 @@ export default function Blog() {
             />
           </div>
           {/* Blog Heading */}
-          <div className="px-3 py-2 w-full md:px-6 md:py-4 ">
+          <div className="px-3 py-2 w-full md:px-4 md:py-1 ">
             <h2 className="text-pink-500 font-bold text-2xl">
               What is Mindful Eating? Your Complete Guide to Enjoying Your Food
               More

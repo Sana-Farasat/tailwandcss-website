@@ -3,7 +3,7 @@ import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col justify-center space-y-6 bg-blue-800 text-white font-bold py-4 mt-[30%]  md:flex-row md:justify-around">
+    <footer className=" max-w-[1500px] mx-auto flex flex-col justify-center space-y-6 bg-blue-800 text-white font-bold py-4 md:flex-row md:justify-around">
       <div className="flex flex-col items-center md:items-start">
         <h2>0030-1234567</h2>
         <h2>abc@email.com</h2>

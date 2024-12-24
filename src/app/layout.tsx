@@ -18,10 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-gray-200">
-      <Header/>
+      <body className="bg-[#effafa]">
+        <Header />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

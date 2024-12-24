@@ -2,15 +2,15 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <main>
+    <main className="max-w-[1500px] mx-auto">
       <div>
-        <h2 className="text-center text-black font-bold text-3xl my-16 lg:text-4xl  ">
+        <h2 className="text-justify text-blue-800 font-bold my-16 text-2xl md:text-3xl lg:text-4xl px-3 md:px-8 lg:px-16 xl:px-24">
           Online Programs and remote consultations are available for individuals
           not in close proximity to our facility.
         </h2>
       </div>
 
-      <p className="text-center text-black font-bold text-xl my-16 lg:text-2xl">
+      <p className="text-justify text-black font-bold text-sm md:text-xl lg:text-2xl px-3 md:px-8 lg:px-16 xl:px-24 pb-6">
         With each passing year, requests for online-based services become
         increasingly louder and more persistent. This makes sense﹘not everyone
         lives near one of our Draper facility, nor can they make a meeting in
@@ -20,7 +20,7 @@ export default function Services() {
         person, as well as access to the same services.
       </p>
 
-      <p className="text-center text-black font-bold text-xl my-16 lg:text-2xl ">
+      <p className="text-justify text-black font-bold text-sm md:text-xl lg:text-2xl px-3 md:px-8 lg:px-16 xl:px-24">
         Thanks to remote conferencing, our team of personal trainers and
         nutritionists will be able to still see your progress and offer advice
         and teachings regarding your questions and concerns. They will also be
@@ -28,17 +28,8 @@ export default function Services() {
         and how also to gather data on your progress that you can share with
         them﹘otherwise this service would be provided to you in person.
       </p>
-      <div className="h-24 w-11/12 ml-4 md:ml-8 lg:ml-12 xl:mx-28">
-        <Image
-          src="/service.png"
-          alt="Dietary image"
-          height={800}
-          width={1000}
-          className=" h-auto mx-auto lg:h-96 w-11/12"
-        />
-      </div>
 
-      <div className="bg-blue-800 h-96 w-full mt-96">
+      <div className="bg-blue-800 h-96 w-full  my-12 flex flex-col justify-center items-center">
         <h2 className="text-white font-extrabold text-center py-16 text-3xl md:text-4xl lg:text-6xl">
           Start Your Transformation Now
         </h2>
