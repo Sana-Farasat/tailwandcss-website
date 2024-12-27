@@ -2,7 +2,8 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <main className="max-w-[1500px] mx-auto mt-12 md:mt-20 border-4 border-blue-800  rounded-xl md:mx-16 my-8 md:my-20">
+    <main className="max-w-[1500px] mx-auto  ">
+      <div className=" mx-5 mt-12 md:mt-20 border-4 border-blue-800  rounded-xl md:mx-16 my-8 md:my-20">
       <h2 className="text-center font-bold mt-10 mb-5 text-3xl text-blue-800 md:text-5xl ">
         Welcome to SF – Your Partner in Health and Fitness
       </h2>
@@ -85,6 +86,7 @@ export default function About() {
           layout="responsive"
           className="h-96 w-full"
         />
+      </div>
       </div>
     </main>
   );
